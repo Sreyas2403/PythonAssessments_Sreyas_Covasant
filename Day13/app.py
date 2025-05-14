@@ -3,7 +3,7 @@ from langchain_mistralai.chat_models import ChatMistralAI
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 app=Flask(__name__)
-app.secret_key='sunil18'
+app.secret_key='sreyas'
 llm=ChatMistralAI(model="mistral-tiny",temperature=1.0)
 @app.route('/',methods=['GET','POST'])
 def index():
